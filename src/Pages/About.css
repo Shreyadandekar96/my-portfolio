@@ -1,0 +1,107 @@
+/* About section */
+.about {
+  max-width: 1000px;
+  margin: 160px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title */
+.about-title {
+  font-size: 2.5rem;
+  color: #0b2545;
+  margin-bottom: 20px;
+}
+
+/* About text */
+.about-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+/* Highlight name */
+.highlight {
+  color: #ff4d6d;
+  font-weight: 600;
+}
+
+/* Hobby title */
+.hobby-title {
+  font-size: 1.6rem;
+  color: #0b2545;
+  margin-bottom: 30px;
+}
+
+/* Hobby cards container */
+.hobby-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Hobby card */
+.hobby-card {
+  background: #f5f5f5;
+  padding: 18px 28px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.hobby-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  background: #ff4d6d;
+  color: white;
+}
+
+
+/* ---------- Tablet ---------- */
+@media (max-width: 992px) {
+
+  .about {
+    margin: 60px auto;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+}
+
+
+/* ---------- Mobile ---------- */
+@media (max-width: 576px) {
+
+  .about {
+    margin: 40px auto;
+    padding: 15px;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .hobby-title {
+    font-size: 1.3rem;
+  }
+
+  .hobby-card {
+    font-size: 1rem;
+    padding: 14px 20px;
+  }
+
+}

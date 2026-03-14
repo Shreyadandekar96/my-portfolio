@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;800&family=Poppins:wght@500;600&display=swap');
+
+/* =========================
+   Base & Body Styles
+========================= */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    background-color: #fdfdfd;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+/* =========================
+   Headings & Titles
+========================= */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Poppins', sans-serif;
+    color: #0b2545;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+/* Heading Sizes */
+h1 { font-size: 3rem; font-weight: 800; }
+h2 { font-size: 2.5rem; font-weight: 700; }
+h3 { font-size: 2rem; font-weight: 700; }
+h4 { font-size: 1.5rem; font-weight: 600; }
+h5 { font-size: 1.25rem; font-weight: 500; }
+h6 { font-size: 1rem; font-weight: 500; }
+
+/* =========================
+   Paragraph Styles
+========================= */
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    font-family: 'Poppins', sans-serif;
+    color: #ff4d6d;
+    text-decoration: none;
+    transition: color 0.3s, letter-spacing 0.3s;
+}
+
+a:hover {
+    color: #0b2545;
+    letter-spacing: 0.5px;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; }
+.font-medium { font-weight: 500; }
+
+/* Responsive Typography */
+@media (max-width: 992px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.75rem; }
+}
+
+@media (max-width: 768px) {
+    body { font-size: 15px; }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    p { font-size: 0.95rem; }
 }
