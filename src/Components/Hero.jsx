@@ -33,9 +33,9 @@ const Hero = () => {
         <a
           href={`${process.env.PUBLIC_URL}/TShreya_Resume.pdf`}
           download="Shreya_Dandekar_Resume.pdf"
-         
+          
         >
-           <button className="hero-btn">Download CV</button>
+          <button className="hero-btn">Download CV</button>
         </a>
       </div>
     </section>
