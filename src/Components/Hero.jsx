@@ -9,10 +9,7 @@ const Hero = () => {
         <p>Frontend Developer | React Developer</p>
 
         {/* CV Download Button */}
-        <a
-          href={`${process.env.PUBLIC_URL}/Shreya_Resume26.pdf`}
-          download
-        >
+        <a href={`${process.env.PUBLIC_URL}/TShreya_Resume.pdf`} download>
           <button className="hero-btn">Download CV</button>
         </a>
       </div>
